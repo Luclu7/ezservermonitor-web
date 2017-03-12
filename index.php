@@ -117,7 +117,7 @@ $update = $Config->checkUpdate();
 
     <div class="box column-right" id="esm-load_average">
         <div class="box-header">
-            <h1>Load Average</h1>
+            <h1>Charge moyenne</h1>
             <ul>
                 <li><a href="#" class="reload" onclick="esm.reloadBlock('load_average');"><span class="icon-cycle"></span></a></li>
             </ul>
