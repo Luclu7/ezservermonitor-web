@@ -189,7 +189,7 @@ $update = $Config->checkUpdate();
 
     <div class="box column-left" id="esm-network">
         <div class="box-header">
-            <h1>Network usage</h1>
+            <h1>Utilisation réseau</h1>
             <ul>
                 <li><a href="#" class="reload" onclick="esm.reloadBlock('network');"><span class="icon-cycle"></span></a></li>
             </ul>
@@ -201,8 +201,8 @@ $update = $Config->checkUpdate();
                     <tr>
                         <th class="w15p">Interface</th>
                         <th class="w20p">IP</th>
-                        <th>Receive</th>
-                        <th>Transmit</th>
+                        <th>Reçu</th>
+                        <th>Émis</th>
                     </tr>
                 </thead>
                 <tbody></tbody>
@@ -217,7 +217,7 @@ $update = $Config->checkUpdate();
 
     <div class="box" id="esm-disk">
         <div class="box-header">
-            <h1>Disk usage</h1>
+            <h1>Utilisation disque</h1>
             <ul>
                 <li><a href="#" class="reload" onclick="esm.reloadBlock('disk');"><span class="icon-cycle"></span></a></li>
             </ul>
@@ -228,12 +228,12 @@ $update = $Config->checkUpdate();
                 <thead>
                     <tr>
                         <?php if ($Config->get('disk:show_filesystem')): ?>
-                            <th class="w10p filesystem">Filesystem</th>
+                            <th class="w10p filesystem">Système de fichier</th>
                         <?php endif; ?>
-                        <th class="w20p">Mount</th>
-                        <th>Use</th>
-                        <th class="w15p">Free</th>
-                        <th class="w15p">Used</th>
+                        <th class="w20p">Montages</th>
+                        <th>Utilisation</th>
+                        <th class="w15p">Libre</th>
+                        <th class="w15p">Utilisé</th>
                         <th class="w15p">Total</th>
                     </tr>
                 </thead>
