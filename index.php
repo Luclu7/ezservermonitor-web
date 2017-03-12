@@ -318,7 +318,7 @@ $update = $Config->checkUpdate();
     <div class="t-center">
         <div class="box column-left column-33" id="esm-last_login">
             <div class="box-header">
-                <h1>Last login</h1>
+                <h1>Dernière(s) connexions</h1>
                 <ul>
                     <li><a href="#" class="reload" onclick="esm.reloadBlock('last_login');"><span class="icon-cycle"></span></a></li>
                 </ul>
@@ -330,7 +330,7 @@ $update = $Config->checkUpdate();
                         <tbody></tbody>
                     </table>
                 <?php else: ?>
-                    <p>Disabled</p>
+                    <p>Desactivé</p>
                 <?php endif; ?>
             </div>
         </div>
@@ -339,7 +339,7 @@ $update = $Config->checkUpdate();
 
         <div class="box column-right column-33" id="esm-services">
             <div class="box-header">
-                <h1>Services status</h1>
+                <h1>Status des services</h1>
                 <ul>
                     <li><a href="#" class="reload" onclick="esm.reloadBlock('services');"><span class="icon-cycle"></span></a></li>
                 </ul>
