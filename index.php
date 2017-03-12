@@ -295,7 +295,7 @@ $update = $Config->checkUpdate();
                         <td><div class="progressbar-wrap"><div class="progressbar" style="width: 0%;">0%</div></div></td>
                     </tr>
                     <tr>
-                        <td class="w20p">Utilisée (en %)</td>
+                        <td class="w20p">Utilisée</td>
                         <td id="swap-used"></td>
                     </tr>
                     <tr>
