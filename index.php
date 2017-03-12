@@ -259,15 +259,15 @@ $update = $Config->checkUpdate();
             <table class="firstBold">
                 <tbody>
                     <tr>
-                        <td class="w20p">Used %</td>
+                        <td class="w20p">Utilisée (en %)</td>
                         <td><div class="progressbar-wrap"><div class="progressbar" style="width: 0%;">0%</div></div></td>
                     </tr>
                     <tr>
-                        <td class="w20p">Used</td>
+                        <td class="w20p">Utilisée</td>
                         <td id="memory-used"></td>
                     </tr>
                     <tr>
-                        <td class="w20p">Free</td>
+                        <td class="w20p">Libre</td>
                         <td id="memory-free"></td>
                     </tr>
                     <tr>
