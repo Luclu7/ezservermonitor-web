@@ -249,7 +249,7 @@ $update = $Config->checkUpdate();
 
     <div class="box column-left" id="esm-memory">
         <div class="box-header">
-            <h1>Memory</h1>
+            <h1>RAM</h1>
             <ul>
                 <li><a href="#" class="reload" onclick="esm.reloadBlock('memory');"><span class="icon-cycle"></span></a></li>
             </ul>
