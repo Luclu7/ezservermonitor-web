@@ -83,7 +83,7 @@ $update = $Config->checkUpdate();
             <table class="firstBold">
                 <tbody>
                     <tr>
-                        <td>Hostname</td>
+                        <td>Nom d'hôte</td>
                         <td id="system-hostname"></td>
                     </tr>
                     <tr>
@@ -91,19 +91,19 @@ $update = $Config->checkUpdate();
                         <td id="system-os"></td>
                     </tr>
                     <tr>
-                        <td>Kernel version</td>
+                        <td>Version du kernel</td>
                         <td id="system-kernel"></td>
                     </tr>
                     <tr>
-                        <td>Uptime</td>
+                        <td>Durée de fonctionnement</td>
                         <td id="system-uptime"></td>
                     </tr>
                     <tr>
-                        <td>Last boot</td>
+                        <td>Dernier démarage</td>
                         <td id="system-last_boot"></td>
                     </tr>
                     <tr>
-                        <td>Current user(s)</td>
+                        <td>Utilisateur(s) actuellement connecté(s)</td>
                         <td id="system-current_users"></td>
                     </tr>
                     <tr>
