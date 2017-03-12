@@ -155,15 +155,15 @@ $update = $Config->checkUpdate();
             <table class="firstBold">
                 <tbody>
                     <tr>
-                        <td>Model</td>
+                        <td>Modèle</td>
                         <td id="cpu-model"></td>
                     </tr>
                     <tr>
-                        <td>Cores</td>
+                        <td>Coeurs</td>
                         <td id="cpu-num_cores"></td>
                     </tr>
                     <tr>
-                        <td>Speed</td>
+                        <td>Fréquence</td>
                         <td id="cpu-frequency"></td>
                     </tr>
                     <tr>
@@ -176,7 +176,7 @@ $update = $Config->checkUpdate();
                     </tr>
                     <?php if ($Config->get('cpu:enable_temperature')): ?>
                         <tr>
-                            <td>Temperature</td>
+                            <td>Température</td>
                             <td id="cpu-temp"></td>
                         </tr>
                     <?php endif; ?>
