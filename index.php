@@ -59,7 +59,7 @@ $update = $Config->checkUpdate();
 
     <?php if (!is_null($update)): ?>
         <div id="update">
-            <a href="<?php echo $update['fullpath']; ?>">New version available (<?php echo $update['availableVersion']; ?>) ! Click here to download</a>
+            <a href="<?php echo $update['fullpath']; ?>">Nouvelle version disponible (<?php echo $update['availableVersion']; ?>) ! Cliquez ici pour la télécharger</a>
         </div>
     <?php endif; ?>
 
@@ -107,7 +107,7 @@ $update = $Config->checkUpdate();
                         <td id="system-current_users"></td>
                     </tr>
                     <tr>
-                        <td>Server date & time</td>
+                        <td>Date du serveur</td>
                         <td id="system-server_date"></td>
                     </tr>
                 </tbody>
