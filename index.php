@@ -73,7 +73,7 @@ $update = $Config->checkUpdate();
 
     <div class="box column-left" id="esm-system">
         <div class="box-header">
-            <h1>System</h1>
+            <h1>Système</h1>
             <ul>
                 <li><a href="#" class="reload" onclick="esm.reloadBlock('system');"><span class="icon-cycle"></span></a></li>
             </ul>
@@ -188,46 +188,46 @@ $update = $Config->checkUpdate();
 
 
     <div class="box column-left" id="esm-network">
-        <div class="box-header">
-            <h1>Utilisation réseau</h1>
-            <ul>
-                <li><a href="#" class="reload" onclick="esm.reloadBlock('network');"><span class="icon-cycle"></span></a></li>
-            </ul>
-        </div>
+		<div class="box-header">
+		    <h1>Utilisation réseau</h1>
+		    <ul>
+			<li><a href="#" class="reload" onclick="esm.reloadBlock('network');"><span class="icon-cycle"></span></a></li>
+		    </ul>
+		</div>
 
-        <div class="box-content">
-            <table>
-                <thead>
-                    <tr>
-                        <th class="w15p">Interface</th>
-                        <th class="w20p">IP</th>
-                        <th>Reçu</th>
-                        <th>Émis</th>
-                    </tr>
-                </thead>
-                <tbody></tbody>
-            </table>
-        </div>
-    </div>
-
-
-    <div class="cls"></div>
+		<div class="box-content">
+		    <table>
+			<thead>
+			    <tr>
+				<th class="w15p">Interface</th>
+				<th class="w20p">IP</th>
+				<th>Reçu</th>
+				<th>Émis</th>
+			    </tr>
+			</thead>
+			<tbody></tbody>
+		    </table>
+		</div>
+	    </div>
 
 
+	    <div class="cls"></div>
 
-    <div class="box" id="esm-disk">
-        <div class="box-header">
-            <h1>Utilisation disque</h1>
-            <ul>
-                <li><a href="#" class="reload" onclick="esm.reloadBlock('disk');"><span class="icon-cycle"></span></a></li>
-            </ul>
-        </div>
 
-        <div class="box-content">
-            <table>
-                <thead>
-                    <tr>
-                        <?php if ($Config->get('disk:show_filesystem')): ?>
+
+	    <div class="box" id="esm-disk">
+		<div class="box-header">
+		    <h1>Utilisation disque</h1>
+		    <ul>
+			<li><a href="#" class="reload" onclick="esm.reloadBlock('disk');"><span class="icon-cycle"></span></a></li>
+		    </ul>
+		</div>
+
+		<div class="box-content">
+		    <table>
+			<thead>
+			    <tr>
+				<?php if ($Config->get('disk:show_filesystem')): ?>
                             <th class="w10p filesystem">Système de fichier</th>
                         <?php endif; ?>
                         <th class="w20p">Montages</th>
