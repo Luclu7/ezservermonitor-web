@@ -228,7 +228,7 @@ $update = $Config->checkUpdate();
 			<thead>
 			    <tr>
 				<?php if ($Config->get('disk:show_filesystem')): ?>
-                            <th class="w10p filesystem">Système de fichier</th>
+                            <th class="w10p filesystem">Système de fichiers</th>
                         <?php endif; ?>
                         <th class="w20p">Montages</th>
                         <th>Utilisation</th>
