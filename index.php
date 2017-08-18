@@ -99,7 +99,7 @@ $update = $Config->checkUpdate();
                         <td id="system-uptime"></td>
                     </tr>
                     <tr>
-                        <td>Dernier démarage</td>
+                        <td>Dernier démarrage</td>
                         <td id="system-last_boot"></td>
                     </tr>
                     <tr>
