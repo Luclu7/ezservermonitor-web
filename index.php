@@ -159,7 +159,7 @@ $update = $Config->checkUpdate();
                         <td id="cpu-model"></td>
                     </tr>
                     <tr>
-                        <td>Coeurs</td>
+                        <td>Cœurs</td>
                         <td id="cpu-num_cores"></td>
                     </tr>
                     <tr>
@@ -339,7 +339,7 @@ $update = $Config->checkUpdate();
 
         <div class="box column-right column-33" id="esm-services">
             <div class="box-header">
-                <h1>Status des services</h1>
+                <h1>Statut des services</h1>
                 <ul>
                     <li><a href="#" class="reload" onclick="esm.reloadBlock('services');"><span class="icon-cycle"></span></a></li>
                 </ul>
