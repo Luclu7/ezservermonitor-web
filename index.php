@@ -73,7 +73,7 @@ $update = $Config->checkUpdate();
 
     <div class="box column-left" id="esm-system">
         <div class="box-header">
-            <h1>System</h1>
+            <h1>Système</h1>
             <ul>
                 <li><a href="#" class="reload" onclick="esm.reloadBlock('system');"><span class="icon-cycle"></span></a></li>
             </ul>
@@ -99,7 +99,7 @@ $update = $Config->checkUpdate();
                         <td id="system-uptime"></td>
                     </tr>
                     <tr>
-                        <td>Dernier démarage</td>
+                        <td>Dernier démarrage</td>
                         <td id="system-last_boot"></td>
                     </tr>
                     <tr>
@@ -159,7 +159,7 @@ $update = $Config->checkUpdate();
                         <td id="cpu-model"></td>
                     </tr>
                     <tr>
-                        <td>Coeurs</td>
+                        <td>Cœurs</td>
                         <td id="cpu-num_cores"></td>
                     </tr>
                     <tr>
@@ -188,47 +188,47 @@ $update = $Config->checkUpdate();
 
 
     <div class="box column-left" id="esm-network">
-        <div class="box-header">
-            <h1>Utilisation réseau</h1>
-            <ul>
-                <li><a href="#" class="reload" onclick="esm.reloadBlock('network');"><span class="icon-cycle"></span></a></li>
-            </ul>
-        </div>
+		<div class="box-header">
+		    <h1>Utilisation réseau</h1>
+		    <ul>
+			<li><a href="#" class="reload" onclick="esm.reloadBlock('network');"><span class="icon-cycle"></span></a></li>
+		    </ul>
+		</div>
 
-        <div class="box-content">
-            <table>
-                <thead>
-                    <tr>
-                        <th class="w15p">Interface</th>
-                        <th class="w20p">IP</th>
-                        <th>Reçu</th>
-                        <th>Émis</th>
-                    </tr>
-                </thead>
-                <tbody></tbody>
-            </table>
-        </div>
-    </div>
-
-
-    <div class="cls"></div>
+		<div class="box-content">
+		    <table>
+			<thead>
+			    <tr>
+				<th class="w15p">Interface</th>
+				<th class="w20p">IP</th>
+				<th>Reçu</th>
+				<th>Émis</th>
+			    </tr>
+			</thead>
+			<tbody></tbody>
+		    </table>
+		</div>
+	    </div>
 
 
+	    <div class="cls"></div>
 
-    <div class="box" id="esm-disk">
-        <div class="box-header">
-            <h1>Utilisation disque</h1>
-            <ul>
-                <li><a href="#" class="reload" onclick="esm.reloadBlock('disk');"><span class="icon-cycle"></span></a></li>
-            </ul>
-        </div>
 
-        <div class="box-content">
-            <table>
-                <thead>
-                    <tr>
-                        <?php if ($Config->get('disk:show_filesystem')): ?>
-                            <th class="w10p filesystem">Système de fichier</th>
+
+	    <div class="box" id="esm-disk">
+		<div class="box-header">
+		    <h1>Utilisation disque</h1>
+		    <ul>
+			<li><a href="#" class="reload" onclick="esm.reloadBlock('disk');"><span class="icon-cycle"></span></a></li>
+		    </ul>
+		</div>
+
+		<div class="box-content">
+		    <table>
+			<thead>
+			    <tr>
+				<?php if ($Config->get('disk:show_filesystem')): ?>
+                            <th class="w10p filesystem">Système de fichiers</th>
                         <?php endif; ?>
                         <th class="w20p">Montages</th>
                         <th>Utilisation</th>
@@ -339,7 +339,7 @@ $update = $Config->checkUpdate();
 
         <div class="box column-right column-33" id="esm-services">
             <div class="box-header">
-                <h1>Status des services</h1>
+                <h1>Statut des services</h1>
                 <ul>
                     <li><a href="#" class="reload" onclick="esm.reloadBlock('services');"><span class="icon-cycle"></span></a></li>
                 </ul>
